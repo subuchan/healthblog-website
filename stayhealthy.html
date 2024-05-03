@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stay Healthy - Healthghuru</title>
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/font/poppins.css" />
+    <link rel="stylesheet" href="assets/font/roboto.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--aos animation  -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+       <!--navbar start-->
+
+	<div class="navbar">
+		<nav class="navbar ">
+			<div class=" logo ">
+				<img src='assets/images/logo.png' alt="" width="100px">
+			</div>
+			<div class="list_item">
+				<ul>
+					<li><a class="" href="index.html">Home </a></li>
+					<li><a class="active" href="stayhealthy.html">Stay Healthy </a></li>
+					<li><a class="" href="meditation.html">Divine Meditation </a></li>
+                    <li><a class="" href="about.html">About Us</a></li>
+					<li><a class="" href="#">Blog</a></li>
+					<li><a class="" href="login.html">Login</a></li>
+					<li><a class="" href="subscribe.html">Subscribe</a></li>
+				</ul>
+			</div>
+			<div class="menu">
+				<i id="menu-icon" class="fa fa-bars" onclick="changeIcon(this)"></i>
+			</div>
+		</nav>
+	</div>
+
+
+	<!--navbar end-->
+
+      
+<section>
+    <section>
+      <header class="intro-stay">
+        <div class="intro-slideshow">
+          <img src="assets/images/stay_banner.jpg">
+        </div>
+        <div class=" stay_health_head">
+          <h1 class="text-white pb-4 mb-4">Stay Healthy</h1>
+          <!-- <p>It's all about the journey</p> -->
+          <img src="assets/images/star.png" alt="">
+        </div>
+      </header>
+      <div class="path_fill stay_path">
+          <div class="path"></div>
+      </div>
+    </section>
+    <section class="tip_health">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="tip_health_title">
+                        <h3 class="title_tip">Tips for Staying Healthy</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="tip_content">
+                        <div class="tip_tit">
+                            <h4 class="tips_num">01.</h4>
+                        </div>
+                        <div class="tip_text">
+                            <p class="tip_desc">Be physically engaged for 30 minutes most days of the week</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="tip_content">
+                        <div class="tip_tit">
+                            <h4 class="tips_num">02.</h4>
+                        </div>
+                        <div class="tip_text">
+                            <p class="tip_desc">Eat a well-balanced, low-fat diet with lots of fruits, vegetables and
+                                whole grains.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="tip_content">
+                        <div class="tip_tit">
+                            <h4 class="tips_num">03.</h4>
+                        </div>
+                        <div class="tip_text">
+                            <p class="tip_desc">Increased happiness, less depression</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="tip_content">
+                        <div class="tip_tit">
+                            <h4 class="tips_num">04.</h4>
+                        </div>
+                        <div class="tip_text">
+                            <p class="tip_desc">Get enough sleep and rest.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="tip_content">
+                        <div class="tip_tit">
+                            <h4 class="tips_num">05.</h4>
+                        </div>
+                        <div class="tip_text">
+                            <p class="tip_desc">Living a healthy lifestyle can boost your confidence.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="tip_content">
+                        <div class="tip_tit">
+                            <h4 class="tips_num">06.</h4>
+                        </div>
+                        <div class="tip_text">
+                            <p class="tip_desc">Ensures Longer Life Time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="health_tab">
+        <div class="container-fluid">
+            <div class="tabs">
+                <input type="radio" name="tabs" id="tabone" checked="checked">
+                <label for="tabone">Nutrition</label>
+                <div class="tab">
+                 <p>We provide nutrition strategies and ideas to help you achieve your objectives, whether you’re trying to maintain, lose, or gain weight.
+                    <ul>
+                        <li>Eat more filling foods</li>
+                        <li>Plan meals in advance</li>
+                        <li>Find physical activities you enjoy</li>
+                        <li>Manage your stress</li>
+                        <li>Supplement your weight management strategies.</li>
+                    </ul>
+
+                    <div class="btn_tab">
+                        <a href="stayhealthy/nutritions.html"><button class="tab_read">Read More</button></a>
+                    </div>
+                 </p>
+                </div>
+                <input type="radio" name="tabs" id="tabtwo">
+                <label for="tabtwo">Fitness</label>
+                <div class="tab">
+                    <p>Regular physical activity provides immediate and long-term health benefits and enhances overall quality of life regardless of age, sex, or physical ability.
+                        <ul>
+                            <li>Reduces the risk of diseases</li>
+                            <li>Improves mental health</li>
+                            <li>Increases muscle and bone health</li>
+                            <li>Manage your Increases energy levels</li>
+                            <li>lowers excess weight</li>
+                        </ul>
+    
+                        <div class="btn_tab">
+                            <a href="stayhealthy/fitness.html"><button class="tab_read">Read More</button></a>
+                        </div>
+                    </p>
+                </div>
+                <input type="radio" name="tabs" id="tabthree">
+                <label for="tabthree">Mental Health</label>
+                <div class="tab">
+                    <p>Emotional, psychological, and social wellbeing all fall under the category of mental health. It influences our thoughts, feelings, and actions. It also influences how we interact with people, manage stress, and make good decisions. Every period of life, from childhood and adolescence to maturity, is vital for mental health.
+                        <ul>
+                           <li>Value yourself</li>
+                           <li>Take care of your body</li>
+                           <li>Surround yourself with good people</li>
+                           <li>Learn how to deal with stress</li>
+                           <li>Avoid alcohol and other drugs</li>
+                           <li>Set realistic goals</li>
+                        </ul>
+    
+                        <div class="btn_tab">
+                            <a href="stayhealthy/mentalhealth.html"><button class="tab_read">Read More</button></a>
+                        </div>
+                     </p>
+                </div>
+                <input type="radio" name="tabs" id="tabfour">
+                <label for="tabfour">Sleep</label>
+                <div class="tab">
+                    <p>Good sleep is a topic that is often neglected, but it is a very important aspect of our everyday life. Sleep has been extensively studied and affects our quality of life in many ways — be it our efficiency at work, our endurance when it comes to daily tasks, or the prevention of diseases and maintenance of mental health.
+                        <ul>
+                            <li>Lower your risk for serious health problems</li>
+                            <li>Reduce stress and improve your mood.</li>
+                            <li>Get along better with people.</li>
+                            <li>Stay at a healthy weight.</li>
+                        </ul>
+    
+                        <div class="btn_tab">
+                            <a href="stayhealthy/sleep.html"><button class="tab_read">Read More</button></a>
+                        </div>
+                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="creating_health">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                    <div class="creating_content">
+                        <h2>Creating Healthier Lives.</h2>
+                        <p>A vital component of health and development is nutrition. Stronger immune systems, safer pregnancy and delivery, a lower risk of non-communicable diseases, and longer life spans are all associated with better nutrition.</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12">
+                    <div class="accordion">
+                        <details>
+                          <summary>
+                            <span class="icon">
+                              <i class="fa fa-arrow-down"></i>
+                            </span>
+                            <span class="tit">Why consuming a range of meals is important?</span>
+                            
+                          </summary>
+                          <div>
+                            <div>
+                               <li>The proper levels of vital nutrients can be obtained by both children and adults by eating a range of whole (i.e., unprocessed) and fresh meals every day. They also benefit from avoiding diets that are heavy in salt, sugar, and fat because these foods can cause unhealthful weight increase (overweight, obesity) and noncommunicable diseases. The development of young children is especially reliant on eating a good, balanced diet. Additionally, it promotes a healthier and more active lifestyle in older adults.</li>
+                            </div>
+                          </div>
+                        </details>
+                        <details>
+                          <summary>
+                            <span class="icon">
+                                <i class="fa fa-arrow-down"></i>
+                            </span>
+                            <span class="tit">What advantages that come from eating a lot of fruit and vegetables?</span>
+                            
+                          </summary>
+                          <div>
+                           <li>Fruit and vegetables are significant sources of antioxidants, dietary fibre, plant protein, and vitamins and minerals. Obesity, heart disease, stroke, diabetes, and some cancers are considerably less common in those whose diets are high in fruits and vegetables.</li>
+                           <li>Avoid overcooking fruit and vegetables as this can result in the loss of vital vitamins. Select kinds of veggies and fruit without additional salt or sugar when utilising canned or dry produce.</li>
+                          </div>
+                        </details>
+                        <details>
+                          <summary>
+                            <span class="icon">
+                                <i class="fa fa-arrow-down"></i>
+                            </span>
+                            <span class="tit">Is consuming little amounts of fats and oils healthy?</span>
+                            
+                          </summary>
+                          <div>
+                           <li>A healthy diet includes moderate amounts of fats and oils. Because fats and oils are concentrated energy sources, consuming too much fat, especially the improper kinds of fat, can be unhealthy. For instance, heart disease and stroke risk are increased in those who consume excessive amounts of saturated and trans fat. Although trans-fat can be found naturally in some meat and dairy products, the majority of processed foods contain trans-fat.</li>
+                          </div>
+                        </details>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="five_ways">
+        <div class="container">
+            <div class="five_ways_content">
+                <div class="tip_health_title">
+                    <h3 class="title_tip">The ONLY 5 Exercises You'll Ever Need</h3>
+
+                    <p class="five_desc">"Human evolution led to five basic movements, which encompass nearly all of our
+                        everyday motions."</p>
+                </div>
+                <div class="five_img">
+                
+                    <div class="img_tip">
+                        <div class="content-overlay"></div>
+                        <img class="content-image"
+                            src="assets/images/young-fit-sportsman-doing-push-ups-with-bars-2048x1367.jpg" alt="">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Push</h3>
+                            <p class="content-text">Push away from you</p>
+                        </div>
+                    </div>
+
+                    <div class="img_tip img_tip2">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src="assets/images/young-woman-gym-pulling-battle-rope-1024x683.jpg"
+                            alt="">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Pull</h3>
+                            <p class="content-text">tugging toward you </p>
+                        </div>
+                    </div>
+
+                    <div class="img_tip img_tip2">
+                        <div class="content-overlay"></div>
+                        <img class="content-image"
+                            src="assets/images/young-asian-fitness-girl-doing-squats-workout-home-follow-online-sport-gym-instructor-standing-1024x683.jpg"
+                            alt="">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Squats</h3>
+                            <p class="content-text">flexing at the knee</p>
+                        </div>
+                    </div>
+
+                    <div class="img_tip img_tip2">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src="assets/images/workout-home-1-1024x683.jpg" alt="">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">plank</h3>
+                            <p class="content-text">stabilizing your core</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mental_health_section">
+        <div class="container">
+            <div class="mental_health_content">
+                <div class="tip_health_title">
+                    <h3 class="title_tip">Mental health is the foundation of a happy life</h3>
+
+                    <p class="five_desc">A happy life requires good mental health. It encompasses our emotional, psychological, and sociological well-being and has an impact on how we think, feel, and live.</p>
+                </div>
+
+                <div class="mental_cards">
+                    <div class="card_one">
+                        <div class="card_tit">
+                            <h3>Mental Health plays a crucial role in relationships</h3>
+                        </div>
+                        <div class="card_desc">
+                            <p>The link between mental health and relationships is one of the most compelling reasons for its importance. Passive aggressiveness, hostility, and a lack of social skills are frequently side effects of mental illnesses.</p>
+                        </div>
+                    </div>
+                    <div class="card_one">
+                        <div class="card_tit">
+                            <h3>Criminal Behavior and Victimization are Connected to Mental Health</h3>
+                        </div>
+                        <div class="card_desc">
+                            <p>Far far away, behind the word Mountains far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmark</p>
+                        </div>
+                    </div>
+                    <div class="card_one">
+                        <div class="card_tit">
+                            <h3>Mental Health Affects Physical Health</h3>
+                        </div>
+                        <div class="card_desc">
+                            <p>Stress and our immune systems can both be impacted by mental illness. Anxiety and melancholy brought on by a sick mind might make it challenging to move around and keep active.</p>
+                        </div>
+                    </div>
+                    <div class="card_one">
+                        <div class="card_tit">
+                            <h3>Mental Health affects the Quality of Life</h3>
+                        </div>
+                        <div class="card_desc">
+                            <p>An unhealthy mind can cause us to lose interest in the things we once enjoyed. It can lead to ups and downs and overwhelm us to a point where we cannot carry on with even the most basic tasks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sleepless_section">
+        <div class="container">
+            <div class="sleepless_content">
+                <div class="sleepless_top">
+                    <div class="sleepless_title">
+                        <h2>Sleeplessness</h2>
+                    </div>
+                    <div class="sleepless_des_img">
+                        <img src="assets/images/divider-free-img-1.png" alt="">
+                    </div>
+                </div>
+                <div class="sleepless_list">
+                    <div class="sleepless_icon">
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <div class="sleepless_list_content">
+                        <div class="list_card_title">
+                            <h3>Hypertension</h3>
+                        </div>
+                        <div class="list_card_desc">
+                            <p>Getting less than 5 to 6 hours of sleep per night has been linked to an elevated instance of hypertension. Long-term sleep deprivation has been associated with increased blood pressure, higher heart rate and inflammation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sleepless_list">
+                    <div class="sleepless_icon">
+                        <i class="fa fa-times"></i>
+                    </div>
+                    <div class="sleepless_list_content">
+                        <div class="list_card_title">
+                            <h3>Heart Attack & Stroke</h3>
+                        </div>
+                        <div class="list_card_desc">
+                            <p>Sleep deficiency causes a greater instance of fatal cardiovascular problems, such as heart attacks and stroke. Doctors and researchers believe this is because the lack of sleep may disrupt the parts of the brain which control the circulatory system</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sleepless_list">
+                    <div class="sleepless_icon">
+                        <i class="fa fa-anchor"></i>
+                    </div>
+                    <div class="sleepless_list_content">
+                        <div class="list_card_title">
+                            <h3>Weight Gain & Obesity</h3>
+                        </div>
+                        <div class="list_card_desc">
+                            <p>The effects of continual sleep problems include rapid weight gain. Sleep deprivation negatively impacts the body’s metabolism and eating habits. Tiredness often leads to unhealthy cravings and overindulgence, accompanied by a decrease in stamina and physical activity.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sleepless_list">
+                    <div class="sleepless_icon">
+                        <i class="fa fa-anchor"></i>
+                    </div>
+                    <div class="sleepless_list_content">
+                        <div class="list_card_title">
+                            <h3>Diabetes</h3>
+                        </div>
+                        <div class="list_card_desc">
+                            <p>Lack of sleep may affect how the body processes the glucose that cells need as fuel and how much insulin the body produces. This is why it's regarded as a serious risk factor for the onset of type 2 diabetes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sleepless_list">
+                    <div class="sleepless_icon">
+                        <i class="fa fa-anchor"></i>
+                    </div>
+                    <div class="sleepless_list_content">
+                        <div class="list_card_title">
+                            <h3>Immune System Deficiency</h3>
+                        </div>
+                        <div class="list_card_desc">
+                            <p>Long-term sleep deprivation has a similar effect to chronic stress; it can lower your immune system's response and make you more vulnerable to infection, including the common cold and flu.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sleepless_btn">
+                    <a href="about.html"><button class="btn sleepless_button">Know More About us</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer_main">
+        <div class="container">
+            <div class="footer_content">
+                <div class="footer_title">
+                    <h2 class="foot_tit">Stay Fit Stay Healthy</h2>
+                </div>
+                <div class="footer_design_img">
+                    <img src="assets/images/divider-free-img-1.png" alt="">
+                </div>
+                <div class="footer_add">
+                    <p class="foot_add">No.1A, Gurudev Complex, 57th Street, Korattur, Chennai – 600 080</p>
+                    <p class="foot_num">Call Us : +91 88259 48859</p>
+                </div>
+                <div class="footer_social">
+                    <div class="social_icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div class="social_icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="social_icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="social_icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="social_icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer_sub">
+		<div class="container">
+			<div class=" row foot_row">
+				<div class="copyright_left col-lg-6 col-sm-12"><p>Copyright © 2023 Healthghuru</p> </div>
+				<div class="copyright_right col-lg-6 colsm-12">
+					<p>Powered by
+						Healthghuru</p></div>
+			</div>
+		</div>
+	</section>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src='assets/js/main.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</body>
+
+</html>
